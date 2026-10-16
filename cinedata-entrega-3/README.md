@@ -66,18 +66,22 @@ O diagrama representa o fluxo requerido. O YAML recebido possui uma divergência
 
 ### Planejamento no Linear
 
-![Quadro de acompanhamento das tarefas](cinedata-entrega-3/evidencias/linear/02-quadro-progresso.png)
+![Quadro de acompanhamento das tarefas]<img width="1265" height="900" alt="02-quadro-progresso" src="https://github.com/user-attachments/assets/7eb2dcee-848a-4ff0-a94f-66ada9388850" />
+
 A captura mostra um momento intermediário. Na consulta ao Linear em 16/10/2026, PER-6 a PER-14 estavam em `Done`. Esse status registra o acompanhamento do trabalho; a aderência técnica é avaliada separadamente no checklist.
 
 ### Dependências no Databricks
 
-![Gold depende de Silver no Job](evidencias/databricks/05-dependencia-gold.png)
+![Gold depende de Silver no Job]<img width="1487" height="886" alt="05-dependencia-gold" src="https://github.com/user-attachments/assets/b6e38e9b-a81b-4c6f-9b5b-905a68b36a6e" />
+
 
 ### Execução registrada
 
-![Eventos com sucesso de Silver, Gold e execução](evidencias/databricks/02-eventos-silver-gold.png)
+![Eventos com sucesso de Silver, Gold e execução]<img width="1077" height="715" alt="02-eventos-silver-gold" src="https://github.com/user-attachments/assets/521ad2f6-c474-4eca-865b-ad1f55a599e1" />
 
-![Linha do tempo das três tarefas](evidencias/databricks/06-timeline.png)
+
+![Linha do tempo das três tarefas]<img width="1487" height="886" alt="06-timeline" src="https://github.com/user-attachments/assets/a370ed09-3ca8-4522-a370-0f2ae8d7f0fb" />
+
 
 As imagens registram sucesso e sequência das tarefas. Não demonstram, sozinhas, a atualização de todos os dados ou a aprovação de todas as regras de qualidade. Não foi estabelecida uma correspondência de hash entre o código do ZIP e o código executado em cada captura.
 
