@@ -8,7 +8,7 @@ Pipeline de engenharia de dados desenvolvido para o RocketLab 2026.2, utilizando
 
 ## Navegação
 
-
+- base de conhecimento para os agents - https://thankful-attention-1a0.notion.site/CineData-Base-de-conhecimento-para-agentes-3fb0c51986648192977ee7bbeeb0326b
 - [Passo a passo e nove tarefas do Linear](docs/LINEAR.md).
 - [Arquitetura, regras e seis perguntas](docs/ARQUITETURA.md).
 - [Pesquisa, persona, few-shot e prompts](docs/METODOLOGIA_IA.md).
