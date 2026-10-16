@@ -66,8 +66,7 @@ O diagrama representa o fluxo requerido. O YAML recebido possui uma divergência
 
 ### Planejamento no Linear
 
-![Quadro de acompanhamento das tarefas](evidencias/linear/02-quadro-progresso.png)
-
+![Quadro de acompanhamento das tarefas](cinedata-entrega-3/evidencias/linear/02-quadro-progresso.png)
 A captura mostra um momento intermediário. Na consulta ao Linear em 16/10/2026, PER-6 a PER-14 estavam em `Done`. Esse status registra o acompanhamento do trabalho; a aderência técnica é avaliada separadamente no checklist.
 
 ### Dependências no Databricks
