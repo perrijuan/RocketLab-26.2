@@ -1,0 +1,35 @@
+resources:
+  jobs:
+    airflow:
+      name: airflow
+      schedule:
+        quartz_cron_expression: 30 0 9 * * ?
+        timezone_id: America/Sao_Paulo
+        pause_status: UNPAUSED
+      tasks:
+        - task_key: _to_Bronze
+          notebook_task:
+            notebook_path: /Workspace/Users/juann.perri@gmail.com/visagio/tarefa 3/imports
+            source: WORKSPACE
+          environment_key: Default
+        - task_key: _to_Silver
+          depends_on:
+            - task_key: _to_Bronze
+          notebook_task:
+            notebook_path: /Workspace/Users/juann.perri@gmail.com/visagio/tarefa
+              3/Bronze_to_Silver
+            source: WORKSPACE
+        - task_key: _to_Gold
+          depends_on:
+            - task_key: _to_Silver
+          notebook_task:
+            notebook_path: /Workspace/Users/juann.perri@gmail.com/visagio/tarefa
+              3/Silver_to_Gold
+            source: WORKSPACE
+      queue:
+        enabled: true
+      environments:
+        - environment_key: Default
+          spec:
+            environment_version: "6"
+      performance_target: PERFORMANCE_OPTIMIZED
