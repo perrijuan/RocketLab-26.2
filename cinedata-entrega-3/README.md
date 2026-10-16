@@ -8,10 +8,9 @@ Pipeline de engenharia de dados desenvolvido para o RocketLab 2026.2, utilizando
 
 ## Navegação
 
-- [Checklist: feito, em andamento, a fazer e riscos](docs/CHECKLIST.md).
+
 - [Passo a passo e nove tarefas do Linear](docs/LINEAR.md).
 - [Arquitetura, regras e seis perguntas](docs/ARQUITETURA.md).
-- [Preparação, execução e manutenção](docs/EXECUCAO.md).
 - [Pesquisa, persona, few-shot e prompts](docs/METODOLOGIA_IA.md).
 - [Base de conhecimento e fontes](base-conhecimento/README.md).
 - [Galeria das 13 evidências](evidencias/README.md).
